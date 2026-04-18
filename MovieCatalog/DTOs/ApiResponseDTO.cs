@@ -9,7 +9,7 @@ namespace MovieCatalog.DTOs
     {
         [JsonPropertyName("msg")]
         public string Msg { get; set; }
-
+             // comment
         [JsonPropertyName("movie")]
         public MovieDTO Movie { get; set; } = new MovieDTO();
     }
